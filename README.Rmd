@@ -1,0 +1,59 @@
+---
+title: "Teststand Data Dashboard"
+output: github_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](figs/port4.jpg)
+
+## Goal
+
+Build a lite dashboard app for Test engineers and Mfg managers to uncover process trends and statistical control metrics.
+
+## Background
+
+After using our TestStand Database Utility to extract .mdb files to component .csv files, we now need a user-friendly app to browse the data and quickly identify trends in production.
+
+## Methodology
+
+#### 1-extract-data.R
+
+One.
+
+#### 2-load-data.R
+
+Two.
+
+#### 3-transform-data.R
+
+Three.
+
+#### 4-analyze-data.R
+
+Four.
+
+#### 5-export-data.R
+
+Five.
+
+## Results
+
+TBD.
+
+## Dependencies
+
+**NOTE: Execute this script only for first call to initialize
+environment**
+
+This list of commands in located in the 0-config.R file.
+
+```         
+install.packages("shiny")
+
+```
