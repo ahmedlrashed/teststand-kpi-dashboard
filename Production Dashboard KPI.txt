@@ -1,0 +1,29 @@
+CONTROL STATS
+ - For each metric(test-step), get mean, max, min, +3sig, -3sig
+
+YIELD RATES
+ - First-pass yield
+ - Total yield 
+ - False Failure rate = total yield - first pass yield
+
+FAILURE MODES
+ - Pareto
+ - Quality
+ - Scrap Rate = count(distinct(never-pass) / count(distinct(pass))
+
+MFG CAPACITY
+ - Avg Test Time
+ - Units Per Day (optimal)
+ - Units Per Day (actual) :: process slop
+ - Optimal Monthly Capacity = Optimal UPD * Mfg-Days
+ - Actual Monthly Capacity = Actual UPD * Mfg-Days
+
+
+What the KPIs measure:
+Unutilized capacity is a measure of sales team performance.
+False pass rate is a measure of manufacturing quality.
+False failure rate is a measure of test quality.
+Optimal UPH is a measure of test throughput 
+Actual UPH is a measure of process throughput
+
+
