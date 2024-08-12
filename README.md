@@ -1,4 +1,3 @@
-![](img/Report Header.jpg)
 ![](img/ReportHeader.jpg)
 
 **PURPOSE:** Extract the manufacturing data from TestStand generated Access mdb file. Build a Power BI dashboard app for Test engineers and Mfg managers to uncover process trends and statistical control metrics. Background information on TestStand's native database logger and schema can be found HERE.
