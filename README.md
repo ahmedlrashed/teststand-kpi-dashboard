@@ -1,10 +1,11 @@
-![](img\Report Header.jpg)
+![](img/Report Header.jpg)
+![](img/ReportHeader.jpg)
 
 **PURPOSE:** Extract the manufacturing data from TestStand generated Access mdb file. Build a Power BI dashboard app for Test engineers and Mfg managers to uncover process trends and statistical control metrics. Background information on TestStand's native database logger and schema can be found HERE.
 
 1.  **IMPORT AND TRANSFORM DATA**
 
-![](img\niSchema.png)
+![](img/niSchema.png)
 
 We create a System DSN using ODBC to connect to the local MS Access database file. Then we use Power BI's native data importer to get the relevant tables needed:
 -   PROP_RESULT
@@ -55,7 +56,7 @@ ORDER BY
 
 Our final data model is shown below:
 
-![](img\teststand-data-model.jpg)
+![](img/teststand-data-model.jpg)
 
 2.  **KPI SUMMARY**
 
